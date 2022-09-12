@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Frontend Mentor | Single-page design portfolio</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220912180530">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<a class="header__logo logo" href="#">
+					<img src="img/logo.svg" alt="logo">
+				</a>
+				<button class="header__button button" type="submit">
+					Free Consultation
+				</button>
+			</div>
+		</header>
+		<main class="main">
+			<section class="skills">
+				<div class="skills__container">
+					<h1 class="sr-only"></h1>
+					<h2 class="skills__title title">
+						Design solutions made easy
+					</h2>
+					<div class="skills__text">
+						<p>
+							With over ten years of experience in various design disciplines, I’m your one-stop shop for your design
+							needs.
+						</p>
+					</div>
+					<ul class="skills__gallery gallery">
+						<li class="gallery__item gallery__item--des">
+							<span class="gallery__subtitle">Graphic Design</span>
+						</li>
+						<li class="gallery__item gallery__item--ux">
+							<span class="gallery__subtitle">UI/UX</span>
+						</li>
+						<li class="gallery__item gallery__item--apps">
+							<span class="gallery__subtitle">Apps</span>
+						</li>
+						<li class="gallery__item gallery__item--illust">
+							<span class="gallery__subtitle">Illustrations</span>
+						</li>
+						<li class="gallery__item gallery__item--photo">
+							<span class="gallery__subtitle">Photography</span>
+						</li>
+						<li class="gallery__item gallery__item--motion">
+							<span class="gallery__subtitle">Motion Graphics</span>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<section class="about">
+				<div class="about__container">
+					<picture><source srcset="img/image-amy.webp" type="image/webp"><img class="about__img" src="img/image-amy.webp" alt="Photo of Amy" width="445" height="445"></picture>
+					<div class="about__info">
+						<h3 class="about__title title">I’m Amy, and I’d love to work on your next project</h3>
+						<div class="about__text">
+							<p>I love working with others to create beautiful design solutions. I’ve designed everything from brand
+								illustrations to complete mobile apps. I’m also handy with a camera!</p>
+						</div>
+						<button class="about__button button" type="button">
+							Free Consultation
+						</button>
+					</div>
+				</div>
+			</section>
+			<section class="portfolio">
+				<h2 class="portfolio__title title">My Work</h2>
+				<div class="portfolio__slider swiper">
+					<ul class="portfolio__wrapper swiper-wrapper">
+						<li class="portfolio__slide swiper-slide">
+							<picture><source srcset="img/image-slide-1.webp" type="image/webp"><img class="portfolio__img" src="img/image-slide-1.jpg" alt="design 5"></picture>
+						</li>
+						<li class="portfolio__slide swiper-slide">
+							<picture><source srcset="img/image-slide-2.webp" type="image/webp"><img class="portfolio__img" src="img/image-slide-2.jpg" alt="design 1"></picture>
+						</li>
+						<li class="portfolio__slide swiper-slide">
+							<picture><source srcset="img/image-slide-3.webp" type="image/webp"><img class="portfolio__img" src="img/image-slide-3.jpg" alt="design 2"></picture>
+						</li>
+						<li class="portfolio__slide swiper-slide">
+							<picture><source srcset="img/image-slide-4.webp" type="image/webp"><img class="portfolio__img" src="img/image-slide-4.jpg" alt="design 3"></picture>
+						</li>
+						<li class="portfolio__slide swiper-slide">
+							<picture><source srcset="img/image-slide-5.webp" type="image/webp"><img class="portfolio__img" src="img/image-slide-5.jpg" alt="design 4"></picture>
+						</li>
+					</ul>
+					<button type="button" class="swiper-button-prev">
+						<svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
+							<path fill="#FFF" d="M8 0 0 8l8 8 1.687-1.687-5.121-5.12h10.241V6.807H4.566l5.121-5.12z" />
+						</svg>
+					</button>
+					<button type="button" class="swiper-button-next">
+						<svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
+							<path fill="#FFF" d="m6.808 16 8-8-8-8-1.687 1.687 5.121 5.12H.001v2.386h10.241l-5.121 5.12z" />
+						</svg>
+					</button>
+				</div>
+			</section>
+			<section class="contact">
+				<div class="contact__container">
+					<div class="contact__inner">
+						<div class="contact__content">
+							<h2 class="contact__title title">Book a call with me</h2>
+							<div class="contact__text">
+								<p>I’d love to have a chat to see how I can help you. The best first step is for us to discuss your project during a free consultation. Then we can move forward from there.</p>
+							</div>
+						</div>
+						<button class="contact__button button" type="button">
+							Free Consultation
+						</button>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<a class="footer__logo logo" href="#">
+					<img src="img/logo.svg" alt="logo">
+				</a>
+				<button class="footer__button button" type="submit">
+					Free Consultation
+				</button>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20220912180530"></script>
+
+
+</body>
+
+</html>
